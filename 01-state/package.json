@@ -1,0 +1,23 @@
+{
+  "name": "01-state",
+  "version": "0.0.1",
+  "description": "Primeros ejercicios de programación funcional",
+  "main": "lowercaser.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "programacion",
+    "funcional"
+  ],
+  "author": "Alexandra Neira",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
