@@ -1,0 +1,21 @@
+{
+  "name": "03-parse-items",
+  "version": "0.0.1",
+  "description": "Third exercise functional programming",
+  "main": "parse-items.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "functional",
+    "programming"
+  ],
+  "author": "Alexandra Neira",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
