@@ -1,0 +1,21 @@
+{
+  "name": "00-apply-discount",
+  "version": "0.0.1",
+  "description": "First exercise functional programming",
+  "main": "applyDiscount.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "functional",
+    "programming"
+  ],
+  "author": "Alexandra Neira",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
