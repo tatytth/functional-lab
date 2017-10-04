@@ -11,5 +11,17 @@ const applyDiscount = (cart, discount) => {
   return [current].concat(applyDiscount(tail, discount));
 };
 
-module.exports = applyDiscount;
+const applyDiscount2 = (cart, discount) => {
+  return cart.map((c) => {
+    const obj = Object.assign({}, c, {
+      price: c.price * (1 - discount),
+    })
+    return obj
+  })
+}
 
+const applyDiscount3 = (cart, discount) =>
+  cart.map((c) =>
+    Object.assign({}, c, {price: c.price * (1 - discount) })
+
+module.exports = applyDiscount

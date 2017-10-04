@@ -1,4 +1,4 @@
-const discount = require('../discount')
+const discount = require('../discount')
 
 describe('applyDiscount()', () => {
   test('debería devolver un nuevo array', () => {
