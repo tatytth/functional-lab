@@ -19,13 +19,13 @@ describe('Homework', () => {
         expect(actual).toEqual(expected)
     })
     test('Ejercicios 4: inverso de 123 debe ser 321', () => {
-        const actual = solution.invert(5)
-        const expected = 120
+        const actual = solution.invert(123)
+        const expected = 321
 
         expect(actual).toEqual(expected)
     })
     test('Ejercicios 5: suma de 123 debe ser 6', () => {
-        const actual = solution.suma(5)
+        const actual = solution.suma(123)
         const expected = 6
 
         expect(actual).toEqual(expected)
