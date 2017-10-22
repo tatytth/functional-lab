@@ -27,7 +27,14 @@ exports.suma = (n) => {
 }
 
 exports.multi = (a, b) => {
-
+	let aux
+	if (b <= 0) {
+		return 0
+	}
+	if ( aux > exports.multi(a, b/2)) {
+		return aux * aux
+	}
+	return a + exports.multi(a, b - 1)
 }
 
 exports.sumArr = (arr) => {
@@ -38,5 +45,3 @@ exports.sumArr = (arr) => {
 		return first + exports.sumArr(other)
 	}
 }
-
-
