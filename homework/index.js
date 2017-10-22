@@ -31,14 +31,12 @@ exports.multi = (a, b) => {
 }
 
 exports.sumArr = (arr) => {
-
-}
-
-function invert(n){
-	if(n < 10){
-		return n;
-	}else {
-		return (n%10) + invert(n / 10) * 10;
+	if (arr.length == 0) {
+		return 0
+	} else {
+		const[first, ...other] = arr //saco el primer elemento del arreglo "asignación por desestructuración: es una expresión de JavaScript que hace posible la extracción de datos de arreglos u objetos usando una sintaxis que equivale a la construcción de arreglos y objetos literales."
+		return first + exports.sumArr(other)
 	}
 }
+
 
