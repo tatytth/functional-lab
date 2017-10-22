@@ -1,5 +1,4 @@
 const discount = .2;
-
 const applyDiscount = (cart, discount) => {
 	if (!cart.length) {
 		return [];

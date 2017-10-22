@@ -1,3 +1,4 @@
+
 test('no debería cambiar el contenido de la variable', () => {
 	const str = 'inmutabilidad'
 
