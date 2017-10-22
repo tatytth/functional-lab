@@ -17,10 +17,13 @@ exports.divide = (a, b) => {
 }
 
 exports.invert = (n) => {
+
 }
 
 exports.suma = (n) => {
-
+	const suma = n == 0 ? n : Math.floor(exports.suma(n / 10) + (n % 10))
+	return suma
+	module.exports = exports.suma
 }
 
 exports.multi = (a, b) => {
