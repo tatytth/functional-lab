@@ -7,7 +7,7 @@ exports.fibonacci = (n) => {
 }
 
 exports.divide = (a, b) => {
-
+	const divide = (a, b) => b > a ? 0 : divide(a - b, b) + 1
 }
 
 exports.invert = (n) => {
