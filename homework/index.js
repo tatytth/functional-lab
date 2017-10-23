@@ -17,7 +17,15 @@ exports.divide = (a, b) => {
 }
 
 exports.invert = (n) => {
+	function rec (n, result){
+		if(!n) {
+			return result
+		}
 
+		result = (result * 10) + (n%10)
+		return rec(Math.floor(n/10), result)
+	}
+	return rec(n, 0)
 }
 
 exports.suma = (n) => {
