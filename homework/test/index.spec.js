@@ -7,9 +7,9 @@ describe('Homework', () => {
 
         expect(actual).toEqual(expected)
     })
-    test('Ejercicios 2: fibonacci de 10 debe ser 89', () => {
+    test('Ejercicios 2: fibonacci de 10 debe ser 55', () => {
         const actual = solution.fibonacci(10)
-        const expected = 89
+        const expected = 55
 
         expect(actual).toEqual(expected)
     })
