@@ -52,8 +52,10 @@ class Routes extends Component {
             <div style={{width:"100%"}}>
               <Switch>
                 <Route exact path="/home" component={App} />
+
                 <Route path="/about" component={About} />
                 <Route path="/posts/:id" component={Post} />
+                <Route path="/" component={App} />
                 <Route component={NotFound} />
               </Switch>
             </div>
